@@ -1,5 +1,5 @@
 {
-	"name": "test",
+	"name": "react-typescript-hooks",
 	"version": "1.0.0",
 	"description": "",
 	"main": "webpack.config.js",
@@ -7,7 +7,7 @@
 		"start": "webpack-dev-server"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Ron",
 	"license": "ISC",
 	"dependencies": {
 		"bootstrap": "^4.3.1",
