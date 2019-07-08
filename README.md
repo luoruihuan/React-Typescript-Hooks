@@ -23,7 +23,7 @@ const path = require("path");
 module.exports = {
 entry: "./src/index.tsx",
     output: {
-    path: path.resolve(__dirname, "build"),
+        path: path.resolve(__dirname, "build"),
         filename: "bundle.js"
     },
     module: {},
@@ -91,7 +91,7 @@ ReactDOM.render(<h1>Hello</h1>, ROOT);
   $  npm i @types/react @types/react-dom -D
 ```
 
-#### 接下来就只要将webpack.config中的test命令更改成下面，就可以直接启动项目了。
+#### 接下来就只要将webpack.config中的test命令更改成下面，就可以直接启动项目了,然后在浏览器中输入localhost:8080 就可以直接查看。
 ```json
   "start": "webpack-dev-server"
 ```
